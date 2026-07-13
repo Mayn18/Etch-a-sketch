@@ -10,17 +10,25 @@ for(let i = 0; i < 16; i++){
         const div = document.createElement("div");
         div.classList.add("child");
         arr[i][j] = div;
-        console.log(arr[i][j]);
     }
 }
 
 for(let i = 0; i < 16; i++){
     const rowDiv = document.createElement("div");
     for(let j = 0; j < 16; j++){
-        arr[i][j].textContent = j;
+        arr[i][j].style.height = "10px";
+        arr[i][j].style.width = "10px";
         rowDiv.appendChild(arr[i][j]);
         if(j === 15){
             container.appendChild(rowDiv);
         }
+    }
+}
+
+for(let i = 0; i < 16; i++){
+    for(let j = 0; j < 16; j++){
+        arr[i][j].addEventListener("mouseover", () => { 
+            arr[i][j].style.backgroundColor = "yellow";
+        })
     }
 }
