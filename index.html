@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Geist+Pixel&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <h1>Etch-a-Sketch</h1>
     <section class="content">
-        <button id = "customGrid">Custom</button>
-        <div class="container">
+        <button class = "actionBtn" id="customGrid">Custom</button>
+        <div class="canvas">
+            <div class="container">
+            </div>
+        </div>
+        <div class="funButtons">
+            <button class = "actionBtn" id="randomColor">Randomize Color</button>
+            <button class = "actionBtn" id="darkenColor">Darken Color</button>
         </div>
     </section>
 </body>
+
 </html>
