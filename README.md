@@ -27,8 +27,6 @@ A browser-based **Etch-a-Sketch** drawing application built with **HTML, CSS, an
 
 ## Preview
 
-Add a screenshot of your project here.
-
 ![Etch-a-Sketch Screenshot](Media/screenshot.png)
 
 ---
